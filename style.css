@@ -1,0 +1,107 @@
+/* CSS files add styling rules to your content */
+
+/*Font and color of the page and texts */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #303030;
+  color: #ffffff;
+}
+
+/*Font of introductory text*/
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: #FFFFFF;
+}
+
+/*Size and color of all buttons*/
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #D5D9E0;
+  position: relative;
+}
+
+/*Specific size and colors of all six game buttons*/
+#but1 {
+  background-color: #fc6dfb;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  border-radius: 250px 0 200px 0;
+}
+
+#but2 {
+  background-color: #fd6e6e;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  border-radius: 0 250px 0 200px;
+  
+}
+
+#but3 {
+  background-color: #fccd76;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 380px;
+  left: 80px;
+  border-radius: 0 200px 0 250px;
+}
+
+#but4 {
+  background-color: #4545f3;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 380px;
+  left: 280px;
+  border-radius: 200px 0 250px 0;
+}
+
+#but5 {
+  background-color: #68b468;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 205px;
+  left: 105px;
+  border-radius: 300px 300px 300px 300px;
+}
+
+
+#but1:active,#but1.lit {
+  background-color: magenta;
+  background-image:url(https://cdn.glitch.com/53d2462c-a0ca-486e-a4f1-1eca88fd5728%2FLeaf.jpg?v=1616218259451);
+}
+
+#but2:active,#but2.lit {
+  background-color: red;
+  background-image:url(https://cdn.glitch.com/53d2462c-a0ca-486e-a4f1-1eca88fd5728%2FLeaf.jpg?v=1616218259451);
+}
+
+#but3:active,#but3.lit {
+  background-color: orange;
+  background-image:url(https://cdn.glitch.com/53d2462c-a0ca-486e-a4f1-1eca88fd5728%2FLeaf.jpg?v=1616218259451);
+}
+
+#but4:active,#but4.lit {
+  background-color: blue;
+  background-image:url(https://cdn.glitch.com/53d2462c-a0ca-486e-a4f1-1eca88fd5728%2FLeaf.jpg?v=1616218259451);
+}
+
+#but5:active,#but5.lit {
+  background-color: green;
+  background-image:url(https://cdn.glitch.com/53d2462c-a0ca-486e-a4f1-1eca88fd5728%2FLeaf.jpg?v=1616218259451);
+}
+
+
+/*For start and stop buttons when they are not in use*/
+.hidden {
+  display: none;
+}

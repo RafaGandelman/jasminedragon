@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>The Jasmine Dragon</h1>
+
+    <p>
+      Welcome to the Jasmine Dragon, do you care for some fun while your tee is being made?
+    </p>
+    <!-- start and end buttons-->
+    <button id="butStart" onclick="startGame()">
+      Start
+    </button>
+    <button id="leaves" onclick="leafGame()">
+      Leaves from the Vine
+    </button>
+    <button id="butEnd" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+
+    <!-- Game buttons-->
+    <div id="game">
+      <button id="but5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="but1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="but2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="but3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="but4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </body>
+</html>
