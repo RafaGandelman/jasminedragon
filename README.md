@@ -40,8 +40,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://g.recordit.co/tuceGqQO24.gif" width=250px><br>
-<img src="http://g.recordit.co/N0TrDjs0Tq.gif" width=250px><br>
+<img src="http://g.recordit.co/tuceGqQO24.gif" width=350px><br>
+<img src="http://g.recordit.co/N0TrDjs0Tq.gif" width=350px><br>
 
 
 ## Reflection Questions
