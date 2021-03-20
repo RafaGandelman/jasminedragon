@@ -73,6 +73,7 @@ One of the things I love about learning new languages and tools is that by makin
 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 For a while now I had this thought in my head that I should, at some point, learn how to set up a website. I dabbled a bit with HTML and looked up some things about JS. I just never had the drive to really take some time and learn any of them.
 
 After this project I feel like I know a bit, but I’ve barely scratched the surface of what they can do. I wonder how to add text user input, how to deal with passwords or how to handle multiple users at once.
@@ -83,6 +84,7 @@ One thing that I kept thinking while making the game was about those older brows
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 In my introduction to computer science class, freshman year of college, the final project was to make a text based game using only C++. I was overly excited about this, had pages of ideas and things I wanted to do. However, something the teaching assistant said to me at office hours stuck with me to this day. I know these are Stephen King’s words, but she said that I should kill my darlings and save some things for my next project.
 
 I know it sounds harsh, but she meant that usually while coming up with ideas for a project we create too many “darlings”. Simple ideas, or functionalities, that won’t individually take a lot of time, but aren’t necessary for the project's completion.
